@@ -1,73 +1,84 @@
-# React + TypeScript + Vite
+# 👋 Hi, I'm Pawan Kumar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Personal Portfolio Website
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-Frontend-blue)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue)]()
+[![Vite](https://img.shields.io/badge/Vite-Build-purple)]()
+[![Supabase](https://img.shields.io/badge/Supabase-Database-green)]()
+[![Vercel](https://img.shields.io/badge/Vercel-Deployment-black)]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern and responsive personal portfolio website designed to showcase my **skills, projects, certifications, education, and contact information** with an interactive and professional user experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🏠 Responsive modern homepage
+* 👤 About Me section
+* 💼 Projects showcase
+* 🎓 Education details
+* 📜 Certifications section
+* 📩 Contact form
+* 🌌 Smooth animations and clean UI
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* ⚛️ React
+* 🟦 TypeScript
+* ⚡ Vite
+* 🎨 CSS
+* 🔥 Supabase
+* ▲ Vercel
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 📂 Folder Structure
+
+```bash id="cb6mwo"
+src/
+ ┣ components/
+ ┣ assets/
+ ┣ App.tsx
+api/
+public/
+vercel.json
+package.json
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ Installation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash id="v6rj8z"
+npm install
+npm run dev
 ```
+
+---
+
+## 🌐 Deployment
+
+Deployed on **Vercel** for fast and secure hosting.
+
+---
+
+## 📫 Connect With Me
+
+* 🐙 GitHub: https://github.com/pawankrdubey
+* 💼 LinkedIn: Add your LinkedIn profile
+* 📧 Email: Add your email
+
+---
+
+## ⭐ Purpose
+
+This portfolio represents my technical skills, practical projects, and professional profile for recruiters, interviews, and career opportunities.
+
+---
+
+## 🙌 Thank You for Visiting
+
+If you like this project, give it a ⭐ on GitHub.
