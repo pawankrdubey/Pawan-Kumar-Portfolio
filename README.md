@@ -1,5 +1,9 @@
 # 👋 Hi, I'm Pawan Kumar
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=28&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+TypeScript+%7C+Vite;Building+Modern+Web+Applications;Always+Learning+New+Technologies" />
+</p>
+
 ## 🚀 Personal Portfolio Website
 
 [![React](https://img.shields.io/badge/React-Frontend-blue)]()
@@ -8,7 +12,7 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Database-green)]()
 [![Vercel](https://img.shields.io/badge/Vercel-Deployment-black)]()
 
-A modern and responsive personal portfolio website designed to showcase my **skills, projects, certifications, education, and contact information** with an interactive and professional user experience.
+A modern and responsive personal portfolio website designed to showcase my **skills, projects, certifications, education, and contact information**.
 
 ---
 
@@ -37,7 +41,7 @@ A modern and responsive personal portfolio website designed to showcase my **ski
 
 ## 📂 Folder Structure
 
-```bash id="cb6mwo"
+```bash id="bb72xv"
 src/
  ┣ components/
  ┣ assets/
@@ -52,33 +56,19 @@ package.json
 
 ## ⚙️ Installation
 
-```bash id="v6rj8z"
+```bash id="h1s6nz"
 npm install
 npm run dev
 ```
 
 ---
 
-## 🌐 Deployment
-
-Deployed on **Vercel** for fast and secure hosting.
-
----
-
 ## 📫 Connect With Me
 
 * 🐙 GitHub: https://github.com/pawankrdubey
-* 💼 LinkedIn: Add your LinkedIn profile
+* 💼 LinkedIn: Add your LinkedIn link
 * 📧 Email: Add your email
 
 ---
 
-## ⭐ Purpose
-
-This portfolio represents my technical skills, practical projects, and professional profile for recruiters, interviews, and career opportunities.
-
----
-
-## 🙌 Thank You for Visiting
-
-If you like this project, give it a ⭐ on GitHub.
+## ⭐ If you like this project, give it a star ⭐
